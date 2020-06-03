@@ -1,18 +1,18 @@
 package animalkingdom;
 
-public class Mammal extends AbstractAnimal {
+public class Bird extends AbstractAnimal {
 
-    public Mammal(String name, int discovered) {
+    public Bird(String name, int discovered) {
         super(name, discovered);
     }
 
     public void move() {
-        System.out.println("walk");
+        System.out.println("fly");
     }
     public void breath() {
         System.out.println("lungs");
     }
     public void reproduce() {
-        System.out.println("live births");
+        System.out.println("eggs");
     }
 }
