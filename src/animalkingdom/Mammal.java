@@ -6,13 +6,13 @@ public class Mammal extends AbstractAnimal {
         super(name, discovered);
     }
 
-    public void move() {
-        System.out.println("walk");
+    public String move() {
+        return "walk";
     }
-    public void breath() {
-        System.out.println("lungs");
+    public String breath() {
+        return "lungs";
     }
-    public void reproduce() {
-        System.out.println("live births");
+    public String reproduce() {
+        return "live births";
     }
 }

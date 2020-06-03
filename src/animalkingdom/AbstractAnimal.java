@@ -20,12 +20,20 @@ abstract class AbstractAnimal {
         return id;
     }
 
-    abstract void move();
-    abstract void breath();
-    abstract void reproduce();
+    public int getDiscovered() {
+        return discovered;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    abstract String move();
+    abstract String breath();
+    abstract String reproduce();
 
     @Override
     public String toString() {
-        return String.format("Species: %s Discovered: %s", name, discovered);
+        return String.format("\nSpecies: %s Discovered: %s\n", name, discovered);
     }
 }

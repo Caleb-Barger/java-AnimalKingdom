@@ -6,13 +6,13 @@ public class Fish extends AbstractAnimal {
         super(name, discovered);
     }
 
-    public void move() {
-        System.out.println("swim");
+    public String move() {
+        return "swim";
     }
-    public void breath() {
-        System.out.println("gills");
+    public String breath() {
+        return "gills";
     }
-    public void reproduce() {
-        System.out.println("eggs");
+    public String reproduce() {
+        return "eggs";
     }
 }

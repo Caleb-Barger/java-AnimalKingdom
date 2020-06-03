@@ -6,13 +6,13 @@ public class Bird extends AbstractAnimal {
         super(name, discovered);
     }
 
-    public void move() {
-        System.out.println("fly");
+    public String move() {
+        return "fly";
     }
-    public void breath() {
-        System.out.println("lungs");
+    public String breath() {
+        return "lungs";
     }
-    public void reproduce() {
-        System.out.println("eggs");
+    public String reproduce() {
+        return "eggs";
     }
 }
